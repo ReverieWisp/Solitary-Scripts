@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Navigate to AU folder nested within WindowsUpdate. Not guarenteed to exist, head to WindowsUpdate first.
+; Add AU options with setting set to '2', for notify for download and notify for install.
+; All Options, based on the Group Policy Editor: 
+;     2: Notify for download and notify for install
+;     3: Auto download and notify for install
+;     4. Auto Download and schedule the install
+;     5. Allow local admin to choose settings
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"AUOptions"=dword:00000002
