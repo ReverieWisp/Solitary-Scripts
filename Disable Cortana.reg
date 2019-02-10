@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Don't want cortana in windows search? Well, you can disable that.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000000
