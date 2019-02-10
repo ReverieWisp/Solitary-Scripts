@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; If you wish to disable automatically collected information in Win10, this is the script for you.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
