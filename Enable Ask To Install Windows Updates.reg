@@ -1,5 +1,10 @@
 Windows Registry Editor Version 5.00
 
+; Note that this will not make all updates asked about, Cumulative system updates or critical updates
+; will still be installed. However, if you run this, you can verifying it worked by running 
+; 'Check for Updates' / looking at the 'Windows Update' section of Settings.
+; If it says "Some settings are managed by your organization", it's active.
+;
 ; Navigate to AU folder nested within WindowsUpdate. Not guarenteed to exist, head to WindowsUpdate first.
 ; Add AU options with setting set to '2', for notify for download and notify for install.
 ; All Options, based on the Group Policy Editor: 
